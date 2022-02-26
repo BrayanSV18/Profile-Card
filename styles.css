@@ -1,17 +1,11 @@
 /* Global */
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
 
 /* General */
-html,
 body {
   height: 100%;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   background-color: black;
-  color: black;
+  
 }
 
 /* Modify card location */
@@ -19,7 +13,6 @@ section {
   width: 100%;
   display: flex;
   justify-content: center;
-  
 }
 /* Card styles */
 .card {
@@ -28,46 +21,66 @@ section {
   background: white;
   border-radius: 20px;
   overflow: hidden; /* Para ocultar bordes que sobre salen */
+  border-style: groove; /* Para ponerle estilo al borde */
+  border-color: darkturquoise; /* Color de borde */
 }
 /* Style of the images */
 .card img {
   width: 100%;
+  height: 38%;
 }
 
 /* Style of the profile img */
-.card img:nth-child(2){
-  
+.card img:nth-child(2) {
   width: 30%;
+  height: 27%;
   position: relative;
   top: -6rem;
   right: -7rem;
-  border: 1px solid #0c0c0c;
+  border: 2px solid #0c0c0c;
   border-radius: 100%;
   text-align: center;
-
 }
 
 /* Text */
-.card h1, p {
-  text-align: ;
-  font-weight: bold;
-  align-items: center;
+h1 {
+  margin-top: -27%;
+  text-align: center;
 }
-*/
-
+p {
+  text-align: center;
+  margin: 4%;
+}
+h4{
+  text-align: center;
+  margin-block-start: 10%;
+  margin-block-end: 1%;
+}
 /* Social media styles */
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
+  padding: 3px;
+  width: 29px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 3px 5px;
+  border-radius: 7px;
+  
 }
 
 .fa:hover {
   opacity: 0.7;
 }
+
+.fa-whatsapp {
+  background: forestgreen;
+  color: white;
+}
+
+.fa-github {
+  background-color: black;
+  color: white;
+}
+
 
 .fa-facebook {
   background: #3b5998;
@@ -89,88 +102,7 @@ section {
   color: white;
 }
 
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
 .fa-instagram {
   background: #125688;
-  color: white;
-}
-
-.fa-pinterest {
-  background: #cb2027;
-  color: white;
-}
-
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.fa-skype {
-  background: #00aff0;
-  color: white;
-}
-
-.fa-android {
-  background: #a4c639;
-  color: white;
-}
-
-.fa-dribbble {
-  background: #ea4c89;
-  color: white;
-}
-
-.fa-vimeo {
-  background: #45bbff;
-  color: white;
-}
-
-.fa-tumblr {
-  background: #2c4762;
-  color: white;
-}
-
-.fa-vine {
-  background: #00b489;
-  color: white;
-}
-
-.fa-foursquare {
-  background: #45bbff;
-  color: white;
-}
-
-.fa-stumbleupon {
-  background: #eb4924;
-  color: white;
-}
-
-.fa-flickr {
-  background: #f40083;
-  color: white;
-}
-
-.fa-yahoo {
-  background: #430297;
-  color: white;
-}
-
-.fa-soundcloud {
-  background: #ff5500;
-  color: white;
-}
-
-.fa-reddit {
-  background: #ff5700;
-  color: white;
-}
-
-.fa-rss {
-  background: #ff6600;
   color: white;
 }
